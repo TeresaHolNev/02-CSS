@@ -1,0 +1,64 @@
+.contenedor {
+    width: 50%;
+    height: 300px;
+    margin: 40px;
+    /* border-color: olive;
+    border-width: 4px;
+    border-style: solid; */
+    /* Para border-width admite thin | medium | thick */
+    /* Para border-style tenemos:
+        - dotted   - dashed  - solid 
+        - double   - groove  - ridge
+        - inset    - outset */
+    border: outset 8px olive;
+}
+
+.contenedor2 {
+    width: 50%;
+    height: 300px;
+    margin: 40px;
+    border-color: red blue green brown;
+    border-style: solid dotted solid dotted;
+    border-width: 8px;
+}
+
+.contenedor3 {
+    width: 50%;
+    height: 300px;
+    border: solid 6px violet;
+    /* Criterio para border-radius:
+        1 Valor => Todas las esquinas iguales
+        2 Valores => Sup.izda y Inf.dcha, Sup.dcha e Inf. izda.
+        3 Valores => Sup.izda, Sup.dcha e Inf.izda, Inf. dcha. 
+        4 Valores => Sup. izda, Sup. dcha, Inf. dcha, Inf. izda. */
+    border-radius: 0px 10px 10px 0px ;
+}
+
+.cont_img {
+    width: 50%;
+    height: 50vh;
+    margin: 40px auto;
+    border: solid 50px transparent;
+    border-image: url('../img/bordes_core.png') 33% round;
+}
+
+.contenedor4 {
+    width: 50%;
+    height: 300px;
+    outline: solid 4px lightcoral;
+}
+
+input {
+    margin: 40px;
+}
+
+input:focus {
+    outline: 2px solid violet;
+}
+
+.fondo:focus {
+    outline: none;
+    border: solid 1px rgb(240, 194, 240);
+    background-color: rgb(240, 194, 240);
+}
+

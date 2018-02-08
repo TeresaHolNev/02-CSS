@@ -1,0 +1,102 @@
+/* Ejemplo de web fonts */
+
+/* Fuentes propias */
+
+@font-face {
+    font-family: 'Ananda';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/Ananda Personal Use.ttf');
+}
+
+@font-face {
+    font-family: 'Ananda';
+    font-style: normal;
+    font-weight: bold;
+    src: url('../fonts/Ananda Black Personal Use.ttf');
+}
+
+@font-face {
+    font-family: 'LosLanister';
+    font-style: normal;
+    font-weight: bold;
+    src: url('../fonts/Game of Thrones.ttf');
+}
+
+/* Ejemplo de fuente propia */
+
+.ananda {
+    font-family: 'Ananda', sans-serif;
+}
+
+.los_lanister {
+    font-family: 'LosLanister', sans-serif;
+}
+
+/* Alternativa llamar a la familia con el 
+   peso de la fuente */
+/* .ananda_negrita {
+    font-family: 'Ananda Bold', sans-serif;
+} */
+
+.negrita {
+    font-weight: bold;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Joti One', cursive;
+}
+
+/* Ejemplo de font-weight con tamaño */
+
+.ligera {
+    font-weight: 300;
+}
+
+.cursiva {
+    font-style: italic;
+}
+
+/* Propiedad font-variant */
+
+.arial {
+    font-family: Arial, sans-serif;
+}
+
+.small_caps {
+    font-variant: small-caps;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,39 @@
+/* Propiedad text-align */
+
+div {
+    border: solid 1px orange;
+}
+
+.mitad {
+    width: 50%;
+}
+
+/* Alinea el texto sobre el elemento que lo contiene. */
+
+.centrado {
+    text-align: center;
+}
+
+.derecha {
+    text-align: right;
+}
+
+.justificado {
+    text-align: justify;
+}
+
+/* Propiedad vertical-align */
+
+
+.logo {
+    font-size: 80px;
+    color: orange;
+    vertical-align: middle;
+}
+
+.texto_logo {
+    font-size: 30px;
+    vertical-align: middle; /* opciones top y bottom */
+}
+
+

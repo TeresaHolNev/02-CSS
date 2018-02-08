@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    border: 5px solid violet;
+    display: flex; /*Su contenido se mostrará con
+                     el modelo Flexbox*/
+    flex-direction: row; /*Valor row (defecto)*/
+    justify-content: space-around; /* Coloca los elementos 
+                                    en el eje principal */
+                                /* flex-start: inicio
+                                  center: centrado
+                                  flex-end: final */
+    align-items: flex-end; /* Coloca los elementos
+                            en el eje secundario */
+}
+
+.uno {
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    font-size: 26px;
+    color: white;
+    padding: 20px;
+    display: flex; /*Establezco la fila como eje principal*/
+    flex-direction: column;
+    justify-content: space-around; /*Centro en el eje principal*/
+    align-items: center; /* Final del eje secundario */
+}
+
+.dos {
+    height: 200px;
+    width: 200px;
+    background-color: orange;
+    font-size: 20px;
+    color: white;
+}
+
+.tres {
+    height: 200px;
+    width: 200px;
+    background-color: crimson;
+    font-size: 20px;
+    color: white;
+}
+
+.cuatro {
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+    font-size: 20px;
+    color: white;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Combinación de selectores</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+    <h3>
+        Ejemplo varios selectores para las
+        mismas reglas.
+    </h3>
+    <h1>Título</h1>
+    <h2>Subtítulo</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, esse?</p>
+    <hr>
+    <h3>Ejemplo varios selectores unidos.</h3>
+    <div class="unidos">
+        <p>¡Hola Mundo!</p>
+    </div>
+    <p class="unidos">¡Hola Europa!</p>
+    <hr>
+    <h3>Ejemplo de selectores descendientes.</h3>
+    <div class="listas">
+        <ul>
+            <li>Fútbol</li>
+            <li>Tenis</li>
+            <li>Natación</li>
+        </ul>
+    </div>
+    <div>
+        <ul>
+            <li>Voleybol</li>
+            <li>Baloncesto</li>
+            <li>Padel</li>
+        </ul>
+    </div>
+    <hr>
+    <h3>Ejemplo de selectores hijos.</h3>
+    <div class="contenedor">
+        <h1>Título 1</h1> <!-- hijo de contenedor -->
+        <div>
+            <h2>Subtítulo 1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, nesciunt?</p>
+        </div>
+        <div>
+            <h1>Título 2</h1> <!-- nieto de contenedor -->
+            <h2>Subtítulo 2</h2>
+            <p>lorem10</p>
+        </div>
+    </div>
+    <hr>
+    <h3>
+        Ejemplo de selectores hermanos en
+        general.
+    </h3>
+    <div>
+        <h4>Título 1</h4>
+        <p>Lorem ipsum...</p> <!--hermanos de h4-->
+        <p>Lorem ipsum...</p>
+        <p>Lorem ipsum...</p>
+    </div>
+    <p>Lorem ipsum...</p>
+    <p>Lorem ipsum...</p>
+    <h3>Otro ejemplo de hermanos en general</h3>
+    <div>
+        <p class="hermanomayor">Hermano mayor</p>
+        <p class="otroshermanos">Otro hermano dentro de la familia</p>
+        <p>Otro párrafo</p>
+        <p class="otroshermanos">Otro hermano dentro de la familia</p>
+        <p class="otroshermanos">Otro hermano dentro de la familia</p>
+    </div>
+    <p class="otroshermanos">Otro hermano fuera de la familia</p>
+    <hr>
+    <h3>Ejemplo de selectores hermanos adyacentes.</h3>
+    <div>
+        <p class="primogenito">Hermano primogénito</p>
+        <p class="hermano">Hermano adyacente</p> <!-- solo el primero -->
+        <p class="hermano">Hermano no adyacente</p>
+        <p class="hermano">Hermano no adyacente</p>
+        <p class="hermano">Hermano no adyacente</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+.padre {
+    border: solid 2px black;
+    margin: 20px;
+    padding: 20px;
+    color: blue;
+}
+
+.hijo {
+    border: solid 2px green;
+    padding: 20px;
+    color: red;
+}
+
+.nieto {
+    border: inherit;
+    padding: 20px;
+    /* color: initial; */
+}
+
+/* Herencia:
+
+Las propiedades heredables se heredan de padres a
+hijos de manera automática hasta que se cambie
+el valor de la propiedad. 
+
+También se puede romper la herencia con el valor 
+initial que asigna el estilo por defecto del
+navegador a esa propiedad.
+
+Las propiedades no heredables solo se heredan
+incluyendo en la propiedad del hijo el valor 
+inherit.  */
+

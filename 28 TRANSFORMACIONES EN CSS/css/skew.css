@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+     height: 100vh;
+}
+
+.uno {
+    width: 200px;
+    height: 200px;
+    background-color: crimson;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    transition: 2s;
+}
+.uno:hover {
+    transform: skew(30deg, 90deg);
+
+}

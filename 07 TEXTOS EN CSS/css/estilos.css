@@ -1,0 +1,40 @@
+/* Unidades CSS desde el punto de vista de textos.
+- Unidades absolutas. 
+     cm, mm, in, etc.
+- Unidades relativas. 
+     px píxeles
+     em tamaño de fuente
+     rem tamaño de fuente general */
+
+/* Propiedad font-size */
+
+.grande {
+    font-size: 28px;
+}
+
+.relativa_em {
+    font-size: 1.5em;
+}
+
+.relativa_rem {
+    font-size: 1.5rem;
+}
+
+/* Tipografía, propiedad font-family */
+
+body {
+    font-family: Vegur, 'PT Sans', 'Comic Sans MS', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Verdana, sans-serif;
+}
+
+.cursiva {
+    font-style: italic; /* oblique si la fuente no */
+}                       /* tiene cursiva */
+
+.negrita {
+    font-weight: bold; /* tamaño equivalente es 700 */
+}
+

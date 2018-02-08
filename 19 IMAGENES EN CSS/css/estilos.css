@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img80 {
+    width: 80%;
+    margin: 40px auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+.filtro {
+    filter: grayscale(100%);
+}
+
+.filtro:hover {
+    filter: none;
+}
+
+.redondeada {
+    margin: 40px;
+    border: 10px solid violet;
+    border-radius: 160px;
+}
+
+.recortada {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 40%, 60% 40%, 50% 50%, 40% 40%, 0% 40%)
+}
+
+.forma {
+    width: 180px;
+    height: 80px;
+    clip-path: polygon(0% 0%, 90% 0%, 90% 30%, 100% 50%, 90% 70%, 90% 100%, 0% 100%)
+}
+.verde {
+    background-color: lightseagreen;
+}
+.rojo {
+    background-color: lightcoral;
+}
+.forma p {
+    color: white;
+    font-size: 22px;
+    padding: 30px 0 0 20px; 
+}
+

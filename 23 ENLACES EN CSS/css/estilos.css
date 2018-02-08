@@ -1,0 +1,81 @@
+a {
+    font-size: 20px;
+    color: #3f3f3f;
+    text-decoration: none;
+}
+
+a:hover {
+    color: violet;
+    /* font-size: 22px; */
+}
+
+a:active {
+    color: green;
+}
+
+/* a:visited {
+    color: red;
+} */
+
+[href ^="http"]::after {
+    content: url('../img/icon.svg');
+    padding-left: 5px;
+}
+
+.cont80 {
+    width: 80%;
+    margin: 40px auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+.diapo:hover {
+    box-shadow: 2px 2px 2px grey;
+    cursor: url('../img/photo-camera.svg'), auto;
+}
+
+.simbolo {
+    font-weight: bold;
+    color: #3f3f3f;
+    font-size: 20px;
+}
+
+.activo {
+    color: violet;
+    font-size: 20px;
+}
+
+.enlaces {
+    width: 80%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.boton {
+    font-size: 30px;
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+    margin: 0 30px;
+}
+
+.rojo {
+    background-color: lightcoral;
+}
+
+.rojo:hover {
+    background-color: rgb(243, 87, 87);
+    color: white;
+}
+
+.verde {
+    background-color: lightseagreen;
+}
+
+.verde:hover {
+    background-color: rgb(3, 129, 123);
+    color: white;
+}
+

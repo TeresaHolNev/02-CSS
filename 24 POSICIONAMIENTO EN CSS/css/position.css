@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    text-align: center;
+    color: white;
+}
+
+/* Propiedad position static (por defecto)*/
+
+/* Posición relativa */
+
+.uno {
+    background-color: green;
+    width: 200px;
+    height: 100px;
+    position: relative;
+    left: 60px; /*Desde la izquierda */
+    top: 40px; /*Desde arriba */
+}
+
+.dos {
+    background-color: orange;
+    width: 100px;
+    height: 60px;
+    position: relative; /* Relativo a su posición
+                           "natural" */
+    right: 40px; /* Desde la derecha */
+    bottom: 30px; /* Desde abajo */
+}
+
+/* Posición fija */
+
+.tres {
+    background-color: yellowgreen;
+    width: 200px;
+    height: 120px;
+    position: fixed; /* Fija al dispositivo */
+    right: 20px;
+    bottom: 40px;
+}
+
+h1 {
+    text-align: center;
+    color: orange;
+}
+
+/* Posición Absoluta */
+
+.cuatro {
+    background-color: darkseagreen;
+    width: 40%;
+    height: 200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.cinco {
+    font-size: 28px;
+    position: absolute; /*Fija al elemento que lo
+                          contiene.
+                          Importante, el elemento
+                          debe estar posicionado */
+    top: 10px;
+    right: 20px;
+}
+
+/* Posición sticky */
+
+.sticky {
+    background-color: orange;
+    width: 50%;
+    height: 50px;
+    margin: 0 auto;
+    color: white;
+    position: sticky; /* Posición natural hasta
+                         que ocupe su posición fija
+                         al dispositivo en 
+                         desplazamiento vertical 
+                         */
+    top: 10px;
+}
+.sticky2 {
+    background-color: blue;
+    width: 50%;
+    height: 50px;
+    margin: 0 auto;
+    color: white;
+    position: sticky;
+    top: 60px;
+}

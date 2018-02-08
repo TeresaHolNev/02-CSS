@@ -1,0 +1,44 @@
+/* Combinación de selectores */
+
+/* Varios selectores para las mismas reglas (,) */
+
+h1, h2 {
+    color: blue;
+}
+
+/* Varios selectores unidos */
+
+div.unidos {
+    color: red;
+}
+
+/* Selectores descendientes (espacio)*/
+
+.listas li {
+    color: violet;
+}
+
+/* Selectores hijos (>) */
+
+.contenedor>h1 {
+    color: green;
+}
+
+/* Selectores hermanos en general (~)  */
+/* Virguilla altgr + 4 */
+
+h4~p {
+    color: orange;
+}
+
+/* Otro ejemplo con clases de hermanos en general  */
+
+.hermanomayor~.otroshermanos {
+    color: brown;
+}
+
+/* Selectores hermanos adyacentes (+) */
+
+.primogenito+.hermano {
+    color: lightgreen;
+}

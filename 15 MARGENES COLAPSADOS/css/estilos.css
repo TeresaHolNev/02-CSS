@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* En márgenes contínuos padre-hijo los fusiona
+con el mas grande y lo lleva al padre (solo en
+sentido vertical) */
+
+.contenedor {
+    margin: 20px 0 20px 0;
+    background-color: brown;
+    border: solid 1px transparent; /*Solución posible*/
+}
+
+.texto {
+    margin: 40px;
+    background-color: beige;
+    font-size: 18px;
+    padding: 20px;
+}
+
+/* Entre hermanos adyacentes el margen vertical se 
+fusiona al valor mayor */
+
+.hermano {
+    background-color: green;
+    color: white;
+    margin: 20px;
+    padding: 10px;
+}

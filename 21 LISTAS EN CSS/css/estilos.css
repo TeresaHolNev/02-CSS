@@ -1,0 +1,53 @@
+/* CSS en listas */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 40px;
+    /* Viñetas: disc (defecto) | circle | square */
+    /* Números: decimal (defecto) |
+       decimal-leading-zero | lower-roman |
+       upper-roman | lower-alpha | upper-alpha */
+    /* list-style-type: lower-greek; */
+       list-style-type: none;
+    /* list-style-position: inside;  Viñeta dentro de li */
+    /* list-style-image: url('../img/icons8-grapes-48.png'); */
+    
+}
+
+li {
+    color: #3f3f3f;
+}
+
+li::before {
+    content: url('../img/icons8-grapes-48.png');
+    position: relative;
+    padding-right: 5px;
+    top: 3px;
+}
+
+/* li:first-child {
+    color: orchid; /* Primer elemento 
+}
+
+li:last-child {
+    color: orange; /* Último elemento 
+}
+
+li:nth-child(3) {
+    color: brown;
+}  */
+
+li:nth-child(odd) {
+    color: blue; /* impares */
+}
+
+li:nth-child(even) {
+    color: red;  /* pares */
+}
+
+
+

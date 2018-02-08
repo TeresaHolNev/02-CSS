@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,400i,700');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #666666;
+}
+
+.contenedor {
+    font-family: 'Nunito', sans-serif;
+    margin: 40px;
+    /*Receta grid para filas y columns con cards*/
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 300px);
+    grid-template-rows: repeat(3,400px);
+    grid-gap: 40px;
+    justify-content: center;
+}
+
+.tarjeta {
+    width: 300px;
+    height: 400px;
+    box-shadow: 4px 4px 8px grey;
+}
+
+.imagen {
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.imagen img {
+    height: 200px;  
+}
+
+.btn {
+    text-decoration: none;
+    background-color: crimson;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border-bottom: 4px solid rgb(151, 12, 40);
+    align-self: center;
+}
+
+.btn:hover {
+    background-color: rgb(151, 12, 40);
+}
+
+.datos {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.direccion {
+    width: 200px;
+}
+
+.direccion p:first-child {
+    color: crimson;
+    font-weight: bold;
+}
+
+.rrss {
+    width: 80px;
+    text-align: right;
+}
+
+.rrss a {
+    font-size: 22px;
+    color: #666666;
+}
+
+.rrss a:hover {
+    font-size: 22px;
+    color: crimson;
+}

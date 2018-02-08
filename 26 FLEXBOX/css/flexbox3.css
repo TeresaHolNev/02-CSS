@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    border: 5px solid violet;
+    height: 100vh;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    flex-wrap: wrap; /* Mostrar el elemento en la
+                        siguiente línea si no cabe*/
+}
+
+.uno {
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    font-size: 26px;
+    color: white;
+}
+
+.dos {
+    height: 200px;
+    width: 200px;
+    background-color: orange;
+    font-size: 20px;
+    color: white;
+}
+
+.tres {
+    height: 200px;
+    width: 200px;
+    background-color: crimson;
+    font-size: 20px;
+    color: white;
+}
+
+.cuatro {
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+    font-size: 20px;
+    color: white;
+    align-self: flex-start; /* alinea el elemento
+                            de manera independiente 
+                            en el eje secundario */
+}

@@ -1,0 +1,103 @@
+/* Tipos de Selectores */
+
+/* Ejemplo de regla At-rule*/
+
+@import 'navegacion.css';
+
+/* Selectores Simples */
+
+/* Selector Universal (Resetear CSS)*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Selector por elemento html */
+
+p {
+    color: grey;
+}
+
+/* Selector por atributo clase */
+
+.naranja {
+    color: orange;
+}
+
+/* Selector por atributo id */
+
+#inicio {
+    background-color: blueviolet;
+    color: white;
+}
+
+/* Selectores por atributo */
+
+/* Selector por atributo sin valor */
+
+[disabled] {
+    cursor: not-allowed;
+}
+
+/* Selector por atributo con valor */
+
+[tipo] {
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+}
+
+[tipo="bebidas"] {
+    background-color: aqua;
+}
+
+[tipo="platos"] {
+    background-color: orangered;
+}
+
+[tipo="postres"] {
+    background-color: olivedrab;
+}
+
+/* Selectores pseudoclases.
+   Seleccionan el elemento por su estado */
+
+.boton {
+    background-color: violet;
+    color: white;
+    border: none;
+    padding: 5px;
+}
+
+/* Ejemplo de pseudoclase hover */
+
+.boton:hover {
+    background-color: white;
+    color: violet;
+    border: solid 1px violet;
+}
+
+/* Selectores pseudoelementos.  
+   Seleccionan los elementos en relación a otros */
+
+.texto {
+    background-color: beige;
+    margin: 20px;
+    padding: 20px;
+}
+
+.texto::after {
+    content: 'Escrito por Juan';
+}
+
+/* Prefijos de proveedores (navegadores) 
+
+    -moz- Mozilla Firefox
+    -webkit- Safari y Google Chrome
+    -ms- Internet Explorer
+    -o- Opera
+    
+*/
+
+

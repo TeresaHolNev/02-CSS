@@ -1,0 +1,22 @@
+/* body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+} */
+
+.uno {
+    margin: 40px;
+    width: 200px;
+    height: 200px;
+    background-color: crimson;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    transition: 2s;
+}
+.uno:hover {
+    transform: translate(300px,50px) rotate(360deg);
+}

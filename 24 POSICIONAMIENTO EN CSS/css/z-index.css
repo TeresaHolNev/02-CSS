@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.uno {
+    width: 300px;
+    height: 200px;
+    background-color: orange;
+    position: absolute;
+    top: 40px;
+    left: 80px;
+}
+
+.dos {
+    width: 300px;
+    height: 200px;
+    background-color: green;
+    position: absolute;
+    top: 80px;
+    left: 200px;
+    z-index: 1;
+}
+
+.tres {
+    width: 300px;
+    height: 200px;
+    background-color: violet;
+    position: absolute;
+    top: 100px;
+    left: 300px;
+}
+
+.cuatro {
+    width: 300px;
+    height: 200px;
+    background-color: brown;
+    position: absolute;
+    top: 80px;
+    left: 400px;
+    z-index: 1;
+}
+
+.cinco {
+    width: 300px;
+    height: 200px;
+    background-color: blueviolet;
+    position: absolute;
+    top: 40px;
+    left: 500px;
+}
+
+/*Ejemplo para divs sin posicionar (No funciona)*/
+
+.seis {
+    background-color: green;
+    width: 200px;
+    height: 100px;
+    margin: 40px;
+
+}
+
+.siete {
+    background-color: orange;
+    width: 100px;
+    height: 60px;
+    /* position: relative; */
+    z-index: -1;
+}

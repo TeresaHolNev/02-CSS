@@ -1,0 +1,49 @@
+.flotante_izqda {
+    float: left;
+    margin: 20px;
+}
+
+.flotante_dcha {
+    float: right;
+    margin: 20px;
+}
+
+.clear {
+    clear: both; /*Elimina el comportamiento float*/
+}
+
+p {
+    font-size: 22px;
+    color: #3f3f3f;
+    padding: 20px;
+    text-align: justify;
+}
+
+.btn {
+    background-color: rgb(50, 50, 219);
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.izdo {
+    float: left;
+}
+
+.dcho {
+    float: right;
+}
+
+.paginacion {
+    text-align: center;
+}
+
+.numero {
+    color: rgb(50, 50, 219);
+    border: solid 1px rgb(50, 50, 219);
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+}

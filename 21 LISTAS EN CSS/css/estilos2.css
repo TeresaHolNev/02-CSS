@@ -1,0 +1,19 @@
+/* Propiedades counter */
+
+body {
+    counter-reset: titulo; /* All credits to Luis & María*/
+} 
+
+h1 {
+    counter-reset: apartado;  
+}
+
+h1::before {
+    counter-increment: titulo;
+    content: "Unidad nº " counter(titulo) ".- ";
+}
+h2::before {
+    counter-increment: apartado;
+    content: "Apartado nº " counter(titulo) 
+             "." counter(apartado) ".- ";
+}

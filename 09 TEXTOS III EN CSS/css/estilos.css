@@ -1,0 +1,72 @@
+/* Alineaciones en Textos */
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+
+/* Propiedad de interlineado */
+
+.altura_doble {
+    line-height: 2em;
+}
+
+/* Propiedad separación letras */
+
+.titulo {
+    letter-spacing: 8px;
+}
+
+/* Propiedad separación palabras */
+
+.texto_ancho {
+    word-spacing: 30px;
+}
+
+/* Propiedad para sangrado */
+
+.texto_sangrado {
+    text-indent: 70px;
+}
+
+/* Propiedad white-space */
+
+/* Muestra el texto como se haya escrito */
+
+.texto_pre {
+    white-space: pre;
+}
+
+/* Elimina los espacios en blanco y saltos de
+linea pero no se adapta al contenedor (se desborda) */
+
+.texto_nowrap {
+    white-space: nowrap;
+}
+
+/* Muestra el texto como se haya escrito pero
+   se adapta al contenedor*/
+
+.texto_prewrap {
+    white-space: pre-wrap;
+}
+
+/* Muestra el texto de manera convencional pero mantiene
+los saltos del línea que tenga el original */
+
+.texto_preline {
+    white-space: pre-line;
+}
+
+/* Propiedad word-wrap */
+
+.word_wrap {
+    word-wrap: break-word;
+    font-size: 30px;
+}
+
+/* Propiedad direction */
+
+.dcha_izda {
+    direction: rtl;
+}

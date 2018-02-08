@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    border: 5px solid violet;
+    height: 100vh; /* Altura del viewport*/
+    display: flex; 
+    flex-direction: row;  /*Eje principal fila*/
+    justify-content: center; /*Alin. eje ppal.*/
+    align-items: baseline; /*Alin. eje secundario*/
+                          /*stretch ajusta la altura
+                            de todos los elementos
+                            a la de su contenedor*/
+}
+
+.uno {
+    padding: 20px;
+    width: 200px;
+    background-color: green;
+    font-size: 20px;
+    color: white;
+}
+
+.dos {
+    padding: 20px;
+    width: 200px;
+    background-color: orange;
+    font-size: 40px;
+    color: white;
+}
+
+.tres {
+    padding: 20px;
+    width: 200px;
+    background-color: crimson;
+    font-size: 20px;
+    color: white;
+}
+
+.cuatro {
+    padding: 20px;
+    width: 200px;
+    background-color: blueviolet;
+    font-size: 20px;
+    color: white;
+}

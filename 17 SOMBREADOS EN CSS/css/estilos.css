@@ -1,0 +1,16 @@
+.sombreado {
+    width: 30%;
+    height: 200px;
+    border: solid 4px lightseagreen;
+    /* Valores offset-horz., offset-vert., blur, spread. */
+    box-shadow: 2px -2px 2px 1px grey;
+}
+
+.sombreado_inset {
+    width: 30%;
+    height: 200px;
+    border: solid 4px lightseagreen;
+    box-shadow: 2px 2px 2px 1px grey inset
+    ;
+
+}

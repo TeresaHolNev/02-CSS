@@ -1,0 +1,44 @@
+/* Desbordamiento en CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Desbordamiento horizontal */
+
+.contenedor50 {
+    width: 50%;
+    background-color: coral;
+}
+
+.desbordado {
+    padding: 20px;
+    color: white;
+    white-space: pre;
+    /* overflow: hidden; Ocultar el elemento desbordado. */
+    /* overflow: scroll; muestra las dos barras */
+    overflow: auto;
+}
+
+/* Desbordamiento vertical */
+
+.menu {
+    width: 250px;
+    height: 100vh;
+    background-color: lightsalmon;
+    color: white;
+    overflow-y: scroll;
+    float: left;
+    padding: 20px;
+}
+
+.menu li {
+    padding: 10px;
+}
+
+.contenido {
+    width: 500px;
+    float: right;
+}

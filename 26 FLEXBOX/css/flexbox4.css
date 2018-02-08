@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    border: 5px solid violet;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.uno {
+    padding: 10px;
+    background-color: green;
+    font-size: 20px;
+    color: white;
+    flex-basis: 100px;
+    flex-grow:  1;
+}
+
+.dos {
+    padding: 10px;
+    background-color: orange;
+    font-size: 20px;
+    color: white;
+    flex-basis: 200px;
+    flex-grow: 2;
+}
+
+.tres {
+    padding: 10px;
+    background-color: crimson;
+    font-size: 20px;
+    color: white;
+    flex-basis: 100px;
+    flex-grow: 1;
+}

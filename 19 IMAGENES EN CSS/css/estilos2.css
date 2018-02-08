@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('../img/icons8-food-and-wine-48.png');
+}
+
+.texto {
+    margin: 60px;
+    padding: 40px;
+    font-size: 26px;
+    color: #3f3f3f;
+    background-color: rgba(255, 255, 255, 0.9);
+}

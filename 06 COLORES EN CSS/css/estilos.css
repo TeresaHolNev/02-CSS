@@ -1,0 +1,48 @@
+/* Colores 4 formatos
+     - Palabras clave.
+     https://www.w3.org/wiki/CSS/Properties/color/keywords
+     - RGB rgb(rojo,verde,azul,alfa).
+     (El canal alfa da transparencia de 0 a 1).
+     - RGB hexadecimal #ffffff.
+     - HSL (Muy poco utilizado). */
+
+/* Ejemplos de propiedad color */
+
+p {
+    color: #FF6347; /* Formato hexadecimal */
+}
+
+h1 {
+    color: rgb(255, 160, 122); /* Formato RGB */
+}
+
+/* Ejemplo de propiedad background-color */
+
+.fondo {
+    background-color: #FF6347;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+}
+
+.filtro {
+    background-color: rgba(199, 21, 133, 0.7);
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 80px;
+    top: 80px;
+}
+
+
+/* Alternativo propiedad opacity entre 0 y 1 */
+
+/* Valores poco utilizados para propiepades de
+   color:
+
+   - transparent    ej. color: transparent;
+   - currentColor   ej. color: currentColor;
+
+*/

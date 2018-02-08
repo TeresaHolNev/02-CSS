@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    border: 5px solid violet;
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: 40px auto;
+}
+
+.uno {
+    height: 200px;
+    background-color: green;
+    flex-basis: 400px;
+    flex-shrink: 1;
+}
+
+.dos {
+    height: 200px;
+    background-color: orange;
+    flex-basis: 400px;
+    flex-shrink: 2;
+}
+
+.tres {
+    height: 200px;
+    background-color: crimson;
+    flex-basis: 400px;
+    flex-shrink: 1;
+}

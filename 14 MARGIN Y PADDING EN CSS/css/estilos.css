@@ -1,0 +1,76 @@
+/* Propiedad margin */
+
+* {
+    margin: 0; /* Elimina el margen por defecto */
+    padding: 0;
+}
+
+.contenedor {
+    width: 50%;
+    height: 300px;
+    background-color: blueviolet;
+    /* margin-left: 40px;
+    margin-top: 60px;
+    margin-bottom: 40px; */
+    margin: 40px 20px 60px 100px;
+    /* 1 Solo valor => Todos los sentidos.  */
+    /* 2 Valores => Arriba y Abajo, Izqda. y Dcha. */
+    /* 3 Valores => Arriba, Izqda. y Dcha., Abajo */
+    /* 4 Valores => Arriba, Derecha, Abajo, Izqda. */
+}
+
+.contenedor2 {
+    width: 30%;
+    height: 200px;
+    background-color: chocolate;
+}
+
+.padre {
+    border: 5px solid orange;
+    width: 50%;
+    height: 300px;
+}
+
+.hijo {
+    width: 50%;
+    height: 200px;
+    background-color: violet;
+    /* margin-left: 20px;
+    margin-top: 40px; */
+    margin: 0px auto; /* Centrado horizontal 
+                         para un solo elemento */
+}
+
+.hermano {
+    background-color: cadetblue;
+    color: white;
+    font-size: 20px;
+    /* margin-right: 20px; */
+}
+
+.texto {
+    border: 2px solid blue;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.espaciado {
+    padding: 20px 0 40px 10px; /*Mismo criterio que en
+                                 margin */
+}
+
+/* Ejemplo de margen negativo */
+
+.franja {
+    margin-top: 200px;
+    height: 160px;
+    background-color: #52b7bd;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+}
+
+ .logo {
+    margin-top: -60px;
+} 

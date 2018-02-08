@@ -1,0 +1,39 @@
+p, span {
+    border: 1px solid orange;
+    padding: 5px;
+}
+
+.enlinea {
+    display: inline;
+}
+
+.enbloque {
+    display: block;
+}
+
+.enlinea_bloque {
+    display: inline-block;
+    font-size: 30px;
+}
+
+.uno, .dos, .tres {
+    width: 30%;
+    height: 200px;
+    margin: 40px auto;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.uno { background-color: blue;}
+.dos { background-color: red;}
+.tres { background-color: green;}
+
+.apagado {
+    display: none; /* Elimina el elemento */
+}
+
+.oculto {
+    visibility: hidden; /*Oculta el elemento manteniendo
+                          su espacio */
+}

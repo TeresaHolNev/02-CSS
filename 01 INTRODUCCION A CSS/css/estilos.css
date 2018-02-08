@@ -1,0 +1,10 @@
+/* Sintaxis CSS */
+/* Bloques compuestos por selector y una
+   o varias reglas CSS   */
+/* Cada regla CSS consta de propiedad y valor */
+
+.caja {
+    background-color: aqua;
+    width: 300px;
+    height: 200px;
+}

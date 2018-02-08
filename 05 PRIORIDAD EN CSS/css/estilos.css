@@ -1,0 +1,84 @@
+/* Prioridad. Se establece en base a tres conceptos:
+    - Importancia.
+    - Especificidad.
+    - Orden. */
+
+/* Importancia tiene 3 hojas de estilo:
+    - CSS de autor (código CSS que escribe 
+                    el desarrollador).
+    - CSS de usuario (Si el usuario configura
+                         el navegador).
+    - CSS del user agent (el navegador). */
+
+/* Orden. Tiene en cuenta la ubicación del código.
+
+    - Estilos en línea (Atributo style en el elemento).
+
+    - Estilos internos (Elemento style).
+
+    - Estilos externos (En archivos .css externos). */
+
+/* p {
+    color: violet;
+} */
+
+/* Especificidad. Establece la prevalencia basándose
+   en un número ABCD de especificidad.
+   Componentes (dígitos):
+        Componente A: Número de estilos aplicados 
+        con style.
+        Componente B: Número de estilos aplicados
+        con selector de atributo id.
+        Componente C: Número de estilos aplicados
+        con selector de atributo class o pseudoclase 
+        o atributo en general.
+        Componente D: Número de estilos aplicados
+        con selector de elemento o pseudolemento. */
+
+/* Ejemplo básico de especificidad */
+
+/* 0001  */
+p {
+    color: grey;
+}
+
+/* 0010  */
+
+.verde {
+    color: green;
+}
+
+/* 0100   */
+
+#poema {
+    color: orange;
+}
+
+/* Romper la especifidad */
+
+/* p {
+    color: blue !important;
+} */
+
+/* Ejemplo de especificidad con múltiples selectores */
+
+/*  0001   */
+
+li {
+    color: blue;
+}
+
+/*   0002       */
+
+p~li {
+    color: brown;
+}
+
+/*  0011      */
+
+ul .naranja {
+    color: orange;
+}
+
+/* Calculadora All credits to Keegan
+https://specificity.keegan.st/ */

@@ -1,0 +1,107 @@
+body {
+    font-size: 26px;
+    color: #3f3f3f;
+}
+
+.fila {
+    margin: 0 auto;
+    padding: 10px 20px;
+    width: 80%;
+    text-align: center;
+}
+
+button {
+    font-size: 28px;
+    padding: 15px;
+    border: none;
+    background-color: rgb(65, 65, 226);
+    color: white;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: rgb(12, 12, 194);
+}
+
+img {
+    max-width: 100%;
+}
+
+.moviles {
+    display: none;
+}
+
+/* .mensaje {
+    width: 90%;
+    margin: 0 auto;
+    background-color: chocolate;
+    position: fixed;
+    bottom: 10px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    display: none;
+} */
+
+/* PCs Sobremesa Portátiles Televisores etc...*/
+
+@media (max-with: 1200px) {
+
+}
+
+/* Portátiles medios y tablets grandes */
+
+@media (max-width: 980px) {
+    button {
+        font-size: 24px;
+        padding: 15px;
+        border-radius: 10px;
+    }
+
+}
+
+/* Tablets */
+
+@media (max-width: 768px) {
+    button {
+        font-size: 18px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+}
+
+/* Teléfonos inteligentes */
+
+@media (max-width: 480px) {
+    body {
+        font-size: 18px;
+    }
+
+    .fila {
+        width: 90%;
+    }
+
+    .escritorio {
+        display: none;
+    }
+
+    .moviles {
+        display: initial;
+    }
+
+    button {
+        font-size: 16px;
+        padding: 8px;
+        border-radius: 5px;
+    }
+}
+
+/* portrait => vertical , landscape => horizontal */
+
+/* @media (max-width: 700px) and (orientation: landscape ) {
+    .mensaje {
+        display: initial;
+    }
+}  */
+
+

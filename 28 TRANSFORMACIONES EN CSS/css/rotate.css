@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+     height: 100vh;
+}
+
+.uno {
+    width: 200px;
+    height: 200px;
+    background-color: crimson;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    transition: 2s;
+}
+.uno:hover {
+    transform: rotate(-360deg);
+    transform-origin: 20px 40px; /*En px referidos al
+                                   extremo sup. izdo.*/
+}

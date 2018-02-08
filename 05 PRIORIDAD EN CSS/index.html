@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Prioridad en CSS</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+    <!-- <style>
+        p {
+            color: green;
+        }
+    </style>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, nisi!</p>
+    <p style="color:brown;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, ut.</p> -->
+    <h3>Ejemplo básico de especificidad</h3>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p class="verde">Lorem ipsum dolor sit amet.</p>
+    <p class="verde" id="poema">Lorem ipsum dolor sit amet.</p>
+    <!-- 1011 -->
+    <p class="verde" style="color: violet;">Lorem ipsum dolor sit amet.</p>
+    <hr>
+    <h3>
+        Ejemplo de especificidad con selectores
+        múltiples.
+    </h3>
+    <ul>
+        <li>Javier López</li>
+        <p>Personas</p>
+        <li>Juan Pérez</li>
+        <li class="naranja">María López</li>
+        <li>Carlos Fernández</li>
+        <li>Lucía Martínez</li>
+    </ul>
+</body>
+</html>
